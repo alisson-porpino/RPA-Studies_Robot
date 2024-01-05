@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.12 on win32)" generated="20231024 13:58:27.225" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\alisson.santos\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20231024 14:08:36.626" endtime="20231024 14:08:38.998"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20231024 14:09:34.082" endtime="20231024 14:09:36.113"/>
+</kw>
+<kw name="Open Application" library="RPA.Excel.Application">
+<doc>Open the application.</doc>
+<status status="PASS" starttime="20231024 14:10:05.706" endtime="20231024 14:10:06.488"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20231024 14:14:19.246" endtime="20231024 14:14:22.829"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20231024 15:14:03.481" endtime="20231024 15:14:06.710"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20231024 15:14:31.069" endtime="20231024 15:14:34.142"/>
+</kw>
+<kw name="Log in">
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>username</arg>
+<arg>maria</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20231024 15:14:41.278" endtime="20231024 15:14:41.340"/>
+</kw>
+<kw name="Input Password" library="RPA.Browser.Selenium">
+<arg>password</arg>
+<arg>thoushallnotpass</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20231024 15:14:41.340" endtime="20231024 15:14:41.398"/>
+</kw>
+<kw name="Submit Form" library="RPA.Browser.Selenium">
+<doc>Submits a form identified by ``locator``.</doc>
+<status status="PASS" starttime="20231024 15:14:41.398" endtime="20231024 15:14:41.413"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="RPA.Browser.Selenium">
+<arg>id:sales-form</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20231024 15:14:41.413" endtime="20231024 15:14:44.140"/>
+</kw>
+<status status="PASS" starttime="20231024 15:14:41.278" endtime="20231024 15:14:44.141"/>
+</kw>
+<kw name="Fill and submit the form">
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>firstname</arg>
+<arg>John</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20231024 15:15:24.079" endtime="20231024 15:15:24.125"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>lastname</arg>
+<arg>Smith</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20231024 15:15:24.125" endtime="20231024 15:15:24.175"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>salesresult</arg>
+<arg>123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20231024 15:15:24.175" endtime="20231024 15:15:24.223"/>
+</kw>
+<kw name="Select From List By Value" library="RPA.Browser.Selenium">
+<arg>salestarget</arg>
+<arg>10000</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" starttime="20231024 15:15:24.223" endtime="20231024 15:15:24.271"/>
+</kw>
+<kw name="Click Button" library="RPA.Browser.Selenium">
+<arg>Submit</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" starttime="20231024 15:15:24.271" endtime="20231024 15:15:24.486"/>
+</kw>
+<status status="PASS" starttime="20231024 15:15:24.078" endtime="20231024 15:15:24.486"/>
+</kw>
+<status status="PASS" starttime="20231024 13:58:27.303" endtime="20231024 16:09:48.386"/>
+</kw>
+<status status="PASS" starttime="20231024 13:58:27.303" endtime="20231024 16:09:48.389"/>
+</test>
+<status status="PASS" starttime="20231024 13:58:27.225" endtime="20231024 16:09:48.397"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
